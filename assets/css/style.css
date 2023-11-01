@@ -1,0 +1,416 @@
+
+/* ================ Designed by Programmer Titu ================= */
+/* Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@200;400;500;600;700&display=swap');
+/* Font Waight 200, 400, 500, 600, 700, */
+
+
+/* Common CSS Start */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+/* Common CSS End */
+
+/* Header Part Start */
+.header_part {
+  background: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: #31d7ce;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 16px;
+  color: #0e1424;
+  font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #31d7ce;
+  transition: 0.3s;
+}
+
+/* Hero Part Start */
+.hero_part {
+  padding: 320px 0;
+  background: url(../img/home.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero_head h2 {
+  font-size: 70px;
+  color: #31d7ce;
+  font-weight: 200;
+}
+.hero_btn {
+display: flex;
+justify-content: center;
+}
+.button {
+  width: 170px;
+  height: 47px;
+  border-radius: 30px;
+  border: 1px solid #d1d1d1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button a {
+  font-size: 14px;
+  color: #31d7ce;
+  font-weight: 500;
+  text-decoration: none;
+}
+.button:hover {
+  background: #31d7ce;
+  transition: 0.3s;
+}
+.button:hover a {
+  color: #0e1424;
+  transition: 0.3s;
+}
+/* Hero Part End */
+
+/* Header Part End */
+
+/* About Part Start */
+.about_part {
+  padding: 100px 0;
+}
+.anout_head h4 {
+  font-size: 30px;
+  color: #252525;
+  font-weight: 600;
+}
+.anout_head p {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #2f2f2f;
+}
+.about_btn {
+  padding-top: 35px;
+}
+.about_button {
+  width: 135px;
+  height: 35px;
+  background: #0cac88;
+  border-radius: 30px;
+  border: 1px solid #48c1a5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_button a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #fefefe;
+}
+.about_button:hover {
+  background: #85d5c3;
+  transition: 0.3s;
+}
+.about_button:hover a {
+  color: #000;
+  transition: 0.3s;
+}
+/* About Part End */
+
+/* Service Part Start */
+.service_part {
+  padding: 0 0 40px;
+}
+.service_head h2 {
+  margin: 0 0 65px;
+  font-size: 40px;
+  color: #252525;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+.service_con {
+  height: 200px;
+  width: 375px;
+  background: #fff;
+}
+.service_con:hover {
+  box-shadow: 0 0 3px #0cac88;
+  transition: 0.3s;
+}
+.service_con_main {
+  padding: 15px 0;
+}
+.service_img img {
+  margin: 35px 30PX;
+  height: 65px;
+  width: 65px;
+  border-radius: 15px;
+}
+.service_con_head h4 {
+  font-size: 16px;
+  color: #444444;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin: 40px 50px 10px;
+}
+.service_con_head p {
+  font-size: 14px;
+  color: #555555;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 50px;
+}
+/* Service Part End */
+
+/* Portfolio Part Start */
+.portfolio_part {
+  padding: 100px 0;
+}
+.portfolio_head h2 {
+  font-size: 40px;
+  color: #252525;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.portfolio_img {
+  position: relative;
+}
+.portfolio_img:hover .portfolio_overlay {
+  background: rgba(0,0,0,0.5);
+  transition: 0.3s;
+}
+.portfolio_overlay {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: .3s;
+}
+.portfolio_text p {
+  display: none;
+  font-style: 16px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+.portfolio_img:hover .portfolio_text p {
+  display: inline-block;
+  transition: .3s;
+}
+.mt_1 {
+  margin-top: 1.5rem;
+}
+/* Portfolio Part End */
+
+/* ================ Designed by 💖 Programmer Titu ================= */
+
+/* Fun Facts Part Start */
+.fun_part {
+  padding: 60px 0;
+  background: url(../img/fun_bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.fun_icon a {
+  font-size: 40px;
+}
+.fun_icon i {
+  color: #fff;
+}
+.fun_point h6 {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.fun_point p {
+  font-size: 15px;
+  color: #d4d4d4;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+/* Fun Facts Part End */
+
+/* Blog Part Start */
+.blog_part {
+  padding: 100px 0;
+}
+.blog_head h2 {
+  font-size: 40px;
+  color: #252525;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.blog_img_head h5 {
+  font-size: 18px;
+  color: #333333;
+  font-family: 'Poppins', sans-serif;
+  margin: 25px 0;
+}
+.blog_img_head p {
+  font-size: 18px;
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+}
+.blog_img_head h6 {
+  font-size: 14px;
+  color: #555555;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+}
+.blog_img_head h6:hover {
+  color: #85D5C3;
+  transition: 0.3s;
+}
+/* Blog Part End */
+
+/* CTA Part Start */
+.cta_part {
+  padding: 55px 0;
+  background: #4fd18d;
+}
+.cta_head h4 {
+  font-size: 26px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin: 12px 12px 0;
+}
+.cta_btn {
+  display: flex;
+  justify-content: center;
+}
+.cta_button {
+  width: 140px;
+  height: 50px;
+  border-radius: 30px;
+  background: #4ae694;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta_button a {
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.cta_btn:hover .cta_button {
+  background: rgb(0, 0, 0, .5);
+  transition: 0.3s;
+}
+.cta_btn:hover a {
+  color: #000;
+  transition: 0.3s;
+}
+/* CTA Part End */
+
+/* Footer Part Start */
+.footer_part {
+  padding: 20px 0;
+  background: #000415;
+}
+.footer_line,
+.footer_con {
+  padding: 45px 0;
+}
+.footer_logo {
+  margin: 30px 0 0 230px;
+}
+.footer_logo h5 {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+.footer_icon a {
+  font-size: 25px;
+  color: #fff;
+}
+.footer_contact p {
+  font-size: 14px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 20px;
+}
+.mt_2 {
+  margin-top: 1rem;
+}
+.footer_copyright p {
+  font-size: 15px;
+  color: #818181;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 30px;
+}
+/* Footer Part End */
+
+/* Responsiv CSS Start Inportent */  
+/* 
+    |||||||||||||||||||||||||||||||  💖 RESPONSIVE CSS   |||||||||||||||||||||||||||||||||||||||||
+*/
+/* Responsiv CSS Start Inportent */
+
+@media (max-width: 575.98px) {
+  .mt_1 {
+    margin-top: 1rem;
+  }
+  .footer_line,
+  .footer_con {
+    padding: 5px 0;
+  }
+  .footer_logo {
+    margin: 30px 0 0 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .mt_4 {
+    margin-top: 1.5rem;
+  }
+  .service_con {
+    width: 250px;
+    height: auto;
+  }
+  .mt_3 {
+    margin-top: 1rem;
+  }
+  .footer_line,
+  .footer_con {
+    padding: 5px 0;
+  }
+  .footer_logo {
+    margin: 30px 0 0 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .mt_4 {
+    margin-top: 1.5rem;
+  }
+  .service_con {
+    width: 350px;
+  }
+  .footer_line,
+  .footer_con {
+    padding: 5px 0;
+  }
+  .footer_logo {
+    margin: 30px 0 0 30px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .service_con {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1200px) {}
+
+/* Responsiv CSS End Inportent */
+
+/* ================ Developed by 💖 Programmer Titu With Titu Mollick =================== */
